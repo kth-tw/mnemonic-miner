@@ -1,0 +1,25 @@
+{
+  "name": "mnemonic-miner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "lint": "eslint -c .eslintrc \"./**/*.ts\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kth-tw/mnemonic-miner.git"
+  },
+  "author": "kth-tw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kth-tw/mnemonic-miner/issues"
+  },
+  "homepage": "https://github.com/kth-tw/mnemonic-miner#readme",
+  "devDependencies": {
+    "ericlint": "^1.1.12",
+    "typescript": "^5.3.3"
+  }
+}
